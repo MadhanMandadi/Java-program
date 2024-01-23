@@ -1,5 +1,5 @@
 import package1.*;
-public class Student {
+public class  Student {
     String name;
     String getName() {
         return name;

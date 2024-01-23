@@ -10,12 +10,12 @@ public class Age {
         age = sc.nextInt();
 
         sc.close();
-        if(age<13){
+        if(age<=13){
             System.out.println("The age of person is kid");
         } else if (age >13 && age <=19) {
             System.out.println("The age of a person is teen");
         }
-        else if(age>19){
+        else if(age>=19){
             System.out.println("The age of a person is adult");
         }
         else{
