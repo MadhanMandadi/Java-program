@@ -21,7 +21,7 @@ public class CharacterCaseConverterTest
     public void testConvertCaseWithEmptyString() {
         assertEquals("", CharacterCaseConverter.convertCase(""));
     }
-    
+
     @Test
     public void testConvertCaseWithNumbers() {
         assertEquals("1234", CharacterCaseConverter.convertCase("1234"));
