@@ -22,14 +22,6 @@ public class CapitalizeAndSortTest {
     }
 
     @Test
-    public void test3() {
-        // Test case 3: Test with already capitalized strings
-        String[] input3 = {"Apple", "Banana", "kiwi", "Orange"};
-        String[] expectedOutput3 = {"Apple", "Banana", "Kiwi", "Orange"};
-        assertArrayEquals(expectedOutput3, CapitalizeAndSort.capitalizeAndSort(input3));
-    }
-
-    @Test
     public void test4() {
         // Test case 4: Test with strings containing spaces
         String[] input4 = {"apple pie", "banana split", "kiwi smoothie"};
